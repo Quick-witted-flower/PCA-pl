@@ -22,13 +22,15 @@ Projekt obejmuje eksplorację danych, przetwarzanie, zastosowanie PCA do redukcj
 ### 3. Stworzenie Pipeline dla klasyfikacji:
    - PCA redukujące wymiarowość cech.
    - Model regresji logistycznej (`LogisticRegression`).
-   - Ocena modelu za pomocą metryk klasyfikacyjnych: Accuracy, F1-score, Macierz pomyłek, Krzywa ROC.
+   - Ocena modelu za pomocą metryk klasyfikacyjnych: Accuracy, F1-score, Macierz pomyłek.
+   - Porównanie wyników modelu z PCA i bez PCA.
 
 ### 4. Stworzenie Pipeline dla regresji:
    - PCA redukujące liczbę cech do optymalnej wartości.
    - Model regresji liniowej (`LinearRegression`).
    - Ocena modelu za pomocą metryk regresyjnych: R² Score, RMSE.
    - Wizualizacja wariancji wyjaśnionej przez komponenty PCA.
+   - Porównanie wyników modelu z PCA i bez PCA.
 
 ## Wyniki i wnioski
 
